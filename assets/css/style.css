@@ -55,9 +55,13 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+#digital-marketing-meeting{
+    height: 800px;
+    width: 100%;
 }
 
 .float-left {
@@ -83,59 +87,27 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.search-engine {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,7 +125,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+.social-media {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -162,7 +134,7 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.search-engine img {
     max-height: 200px;
 }
 
@@ -170,11 +142,11 @@ p {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+.social-media img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.search-engine h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -184,7 +156,7 @@ p {
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+.social-media h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
